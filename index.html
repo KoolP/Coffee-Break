@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITHS Coffee break</title>
+
+    <!-- Cloud libraries -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Patriks Library -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+
+    <!--jQuery librarys cdn link, only works when user online. Link to jquery file.-->
+    <script   src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
+
+
+    <style>
+    ul {
+    background-color: #693250;
+    }
+
+    .mdl-menu__item:hover {
+      background-color: #733758;
+    }
+
+    nav {
+      background-color: #693250;
+    }
+
+    #logo {
+    padding-left: 40px;
+    margin-top: 10px;
+    }
+
+    .cbtopnav {
+      border-radius: 2px 50px 16px;
+      float:right;
+      margin-top: 42px;
+      background-color: #693250;
+      margin-right: 20px;
+      width: 96px;
+    }
+
+      #mobilemenu {
+      margin-top: 25px;
+    }
+
+    @media (min-width: 800px) {
+      #mobilemenu {
+      display: none;
+    }
+    }
+
+    @media (max-width: 800px) {
+      #desktopnav {
+      display: none;
+    }
+    }
+
+
+    </style>
+
+  </head>
+
+  <body>
+
+  <header>
+    <div id="navlogo">
+    <img id="logo" alt="coffee mug" src="media/cofee_break_logo.png" width="20%">
+    </div>
+
+    <nav id="desktopnav">
+      <!-- Right aligned menu below button -->
+      <button id="classrooms" class="cbtopnav"><h4 style="color=white">Clasrooms</h4></button>
+
+      <button id="manifest" class="cbtopnav"><h4>Manifesto</h4></button>
+
+      <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+      for="classrooms">
+        <li class="mdl-menu__item"><p onclick="app17()">App 17</p></li>
+        <li class="mdl-menu__item"><p onclick="web17()">Web 17</p></li>
+      </ul>
+    </nav>
+    <!-- Mobile Menu -->
+    <!-- Right aligned menu below button -->
+    <button id="mobilemenu"
+      class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons" style="color:#693250; border: solid 2px white;">menu</i>
+    </button>
+
+      <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+      for="mobilemenu">
+        <li class="mdl-menu__item"><p onclick="manifesto()">Manifesto</p></li>
+        <li class="mdl-menu__item"><p onclick="web17()">Web 17</p></li>
+      </ul>
+
+
+    <div id="herobanner">
+      <section id="banner">
+              <h1 id="bannerheader">ITHS Coffee break</h1>
+              <h3 id="bannerheadertwo">Present your project to fellow students and get them to contribute.</h3>
+      </section>
+    </div>
+
+  </header>
+
+  <main>
+
+    <div class="cardthird">
+    <div class="card" id="marcus">
+      <img src="media/people/steve.jpg" alt="Steve Jobs" style="width:80px">
+      <h4 id="cardheader">Marcus</h2>
+      <p class="cardtitle">Founder</p>
+      <p class="cardtxt">Available projects:</p>
+      <p class="cardtxtyorno">Yes</p>
+      <div style="margin: 24px 0;">
+        <a id="carda" href"#"><i class="fa fa-github"></i></a>
+        <a id="carda" href="#"><i class="fa fa-linkedin"></i></a>
+        <a id="carda" href="#"><i class="fa fa-facebook"></i></a>
+    </div>
+      <p><button id="cardbtn" >Contact</button></p>
+    </div>
+    </div>
+
+    <div class="cardthird">
+    <div class="card" id="martin">
+      <img src="media/people/bill.jpg" alt="Bill" style="width:80px">
+      <h4 id="cardheader">Martin</h2>
+      <p class="cardtitle">Java & Android</p>
+      <p class="cardtxt">Available projects:</p>
+      <p class="cardtxtyorno">Yes</p>
+      <div style="margin: 24px 0;">
+        <a id="carda" href"#"><i class="fa fa-github"></i></a>
+        <a id="carda" href="#"><i class="fa fa-linkedin"></i></a>
+        <a id="carda" href="#"><i class="fa fa-facebook"></i></a>
+    </div>
+      <p><button id="cardbtn" >Contact</button></p>
+    </div>
+    </div>
+
+    <div class="cardthird">
+    <div class="card" id="jon">
+      <img src="media/people/linus.jpg" alt="Linus" style="width:80px">
+      <h4 id="cardheader">Jon</h2>
+      <p class="cardtitle">Fullstack</p>
+      <p class="cardtxt">Available projects:</p>
+      <p class="cardtxtyorno">Yes</p>
+      <div style="margin: 24px 0;">
+        <a id="carda" href"#"><i class="fa fa-github"></i></a>
+        <a id="carda" href="#"><i class="fa fa-linkedin"></i></a>
+        <a id="carda" href="#"><i class="fa fa-facebook"></i></a>
+    </div>
+      <p class="pbtn"><button id="cardbtn" >Contact</button></p>
+    </div>
+    </div>
+
+  <!-- <div class="hid" id="bill">
+    <img src="media/people/bill.jpg" alt="Bill" style="width:120px">
+    <div id="cont">
+      <p id="name">Bill Gates</p>
+      <p id="title">STUDENT</p>
+      <p id="quote">Amazing UX at this kitchen!</p>
+      <p><button class="contact" onclick="contact()">Say hello</button></p>
+    </div>
+  </div> -->
+
+    <!-- <div class="herobanner" for="manifest">
+    <section id="bannert">
+            <p id="bt">
+              Coffee break is a non-profit initiative built to serve and promote collaboration and contribution among the students and teachers at IT-Högskolan Gothenburg. The idea is to share ideas and have a platform for open minded developers to start collaborating on projects. This is the meeting place and playroom for entrepreneurs and volunteers to outgrow their ideas.
+            </p>
+            <p id="bt">
+              We warmly welcome open source initiatives that rely on generosity and like to courage ourself on making use of the potential that is present among us. We believe It-Högskolan is an amazing platform for startup and spinn-off projects that may lead towards the next generation world-conquering products and services, charity causes. We also believe in knowledge sharing and we want to help each other and this way become stronger together by amplifying the network effect. By contributing a some you may gain a lot.
+            </p>
+            <p id="bt">
+              Let us play, learn and build a cradle for collaboration at our school, welcome to Coffee break.
+            </p>
+    </section>
+    </div> -->
+
+
+    <!--Test hidden klass btn
+    <button class="hide" id="app17"><h2 style="margin:0px;">App 17</h2></button>
+    <button class="hide" id="web17"><h2 style="margin:0px;">web 17</h2></button>
+
+
+    <button id="button" onclick="coffeySpinner()"><h2 style="margin:0px;">START</h2></button>-->
+
+    <div class="hide" id="bill">
+      <img src="media/people/bill.jpg" alt="Bill" style="width:120px">
+      <div id="cont">
+        <p id="name">Bill Gates</p>
+        <p id="title">STUDENT</p>
+        <p id="quote">Amazing UX at this kitchen!</p>
+        <p><button class="contact" onclick="contact()">Say hello</button></p>
+      </div>
+    </div>
+
+    <div class="hide" id="steve">
+      <img src="media/people/steve.jpg" alt="Steve" style="width:120px">
+      <div id="cont">
+        <p id="name">Steve Jobs</p>
+        <p id="title">CHIEF OF COLOR</p>
+        <p id="quote">My cup is the #808080 one!</p>
+        <p><button class="contact" onclick="contact()">Say hello</button></p>
+      </div>
+    </div>
+
+    <div class="hide" id="linus">
+      <img src="media/people/linus.jpg" alt="Linus" style="width:120px">
+      <div id="cont">
+        <p id="name">Linus Torvalds</p>
+        <p id="title">LINUX</p>
+        <p id="quote">Finnish alternative roast?</p>
+        <p><button class="contact" onclick="contact()">Say hello</button></p>
+      </div>
+    </div>
+
+    <div class="hide" id="mark">
+      <img src="media/people/mark.jpg" alt="Mark" style="width:120px">
+      <div id="cont">
+        <p id="name">Mark Zuckerberg</p>
+        <p id="title">ADULT</p>
+        <p id="quote">Regular ordinary please!</p>
+        <p><button class="contact" onclick="contact()">Say hello</button></p>
+      </div>
+    </div>
+
+    <div class="hide" id="instant">
+      <img src="media/people/instant.jpg" alt="instant coffee" style="width:120px">
+      <div id="cont">
+        <p id="name">Instant Coffee</p>
+        <p id="title">NESCAFE</p>
+        <p id="quote">Make your own cup!</p>
+        <p><button class="contact" onclick="contact()">Say hello</button></p>
+      </div>
+    </div>
+
+    <div class="hide" id="richard">
+      <img src="media/people/richard.jpg" alt="stallman" style="width:120px">
+      <div id="cont">
+        <p id="name">Richard Stallman</p>
+        <p id="title">GNU/LINUX</p>
+        <p id="quote">Don't blame Bill for the UX!</p>
+        <p><button class="contact" onclick="contact()">Say hello</button></p>
+      </div>
+    </div>
+
+    <div class="hide" id="grace">
+      <img src="media/people/grace.jpg" alt="Hopper" style="width:120px">
+      <div id="cont">
+        <p id="name">Grace Hopper</p>
+        <p id="title">COMPILER</p>
+        <p id="quote">A bug in your cup!</p>
+        <p><button class="contact" onclick="contact()">Say hello</button></p>
+      </div>
+    </div>
+
+    <div class="hide" id="james">
+      <img src="media/people/james.jpg" alt="gosling" style="width:120px">
+      <div id="cont">
+        <p id="name">James Gosling</p>
+        <p id="title">JAVA</p>
+        <p id="quote">Blame Oracle for the bad java!</p>
+        <p><button class="contact" onclick="contact()">Say hello</button></p>
+      </div>
+    </div>
+
+
+  </main>
+
+  <!-- Drawer script -->
+  <script>
+    var drawer = new mdc.drawer.MDCTemporaryDrawer(document.getElementById('drawer'));
+    document.getElementById('menu').addEventListener('click',function() {drawer.open = true;});
+    window.mdc.autoInit();
+
+    // Analyse current state.
+    console.log('The menu is ' + (menu.open ? 'open' : 'closed'));
+    // Open menu.
+    menu.open = true;
+    // Close menu.
+    menu.open = false;
+    // Show (open) menu.
+    menu.show();
+    // Hide (close) menu.
+    menu.hide();
+    // Show (open) menu, and focus the menu item at index 1.
+    menu.show({focusIndex: 1});
+  </script>
+
+  </body>
+</html>
+
+<!-- App created by Patrik Rikama Hinnenberg -->

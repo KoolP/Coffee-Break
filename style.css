@@ -1,0 +1,319 @@
+
+body {
+background: #693250;
+}
+
+header {
+  text-align: center;
+  background: url("media/kahvia.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 690px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+main {
+  background: #693250;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  width: 70%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+h1 {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-size: 44px;
+  color: snow;
+  padding: 5px;
+}
+
+h2 {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-size: 20px;
+  color: snow;
+  padding: 5px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-size: 20px;
+  color: snow;
+  padding: 20px 10px 20px 10px;
+  line-height: normal;
+}
+
+h4 {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-size: 16px;
+  color: snow;
+  line-height: normal;
+  margin: 4px 2px 4px 2px;
+}
+
+p {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  color: snow;
+  text-align: center;
+}
+
+#bt {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  color: snow;
+}
+
+#navlogo {
+  float: left;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+#banner {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 2px 80px 16px;
+    background-color: #693250;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#bannert {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 10px 20px 10px;
+    margin-bottom: 40px;
+    border-radius: 2px 50px 16px;
+    background-color: #693250;
+    clear: both;
+}
+
+#herobanner {
+    clear: both;
+}
+
+#bannerheadertwo {
+  margin-top: 0px;
+}
+
+#bannerheader {
+  margin-bottom: 0px;
+}
+
+#button {
+  height: 130px;
+  width: 130px;
+  border-style: solid;
+  border-color: snow;
+  border-width: 5px;
+  background-color: #4c4c4c;
+  border-radius: 50%;
+  text-align:center;
+  line-height: 40px;
+  cursor: pointer;
+  background: linear-gradient(#b2ac9e, #4c4c4c);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.9);
+}
+
+#button a {
+  display: block;
+  text-decoration: none;
+  color: snow;
+  text-align: center;
+}
+
+.tab {
+font-family: 'Helvetica Neue', 'Arial', sans-serif;
+/*display: block;*/
+background-color: white;
+border-top-right-radius: 0.5em;
+border-top-left-radius: 0.5em;
+color: red;
+float: left;
+font-weight: bold;
+margin-right: 1em;
+padding: 0.5em 1em;
+box-shadow: 2px 0px 2px 0 rgba(128, 128, 128, 0.5);
+/*added after trying jquery slide, but tabs merged on top of each*/
+/*width: 40px;
+display: none;
+bottom: 0;
+position: absolute;*/
+}
+
+.tab:hover {
+    background-color: #ddd;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display; block;
+}
+
+#bill, #steve, #linus, #mark, #instant, #james, #grace, #richard  {
+  background: snow;
+  border-radius: 20px;
+  width: 25%;
+  margin: auto;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.8);
+}
+
+#app17 {
+  height: 130px;
+  width: 130px;
+  border-style: solid;
+  border-color: snow;
+  border-width: 5px;
+  background-color: #4c4c4c;
+  border-radius: 50%;
+  text-align:center;
+  line-height: 40px;
+  cursor: pointer;
+  background: linear-gradient(#b2ac9e, #4c4c4c);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.9);
+}
+
+#web17 {
+  height: 130px;
+  width: 130px;
+  border-style: solid;
+  border-color: snow;
+  border-width: 5px;
+  background-color: #blue;
+  border-radius: 50%;
+  text-align:center;
+  line-height: 40px;
+  cursor: pointer;
+  background: linear-gradient(#b2ac9e, #4c4c4c);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.9);
+}
+
+#cont {
+  display: inline-block;
+  vertical-align: top;
+  padding: 26px 0 0 5px;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+#name {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-size: 22px;
+  color: #333333;
+  padding: 5px;
+  margin-bottom: 0px;
+}
+
+#title {
+  color: grey;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-size: 14px;
+}
+
+#quote {
+  color: #333333;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+
+/*.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 2px 40px 16px;
+  background-color: #F8F8FF;
+}*/
+
+#marcus, #jon {
+  /*float: left;*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 2px 40px 16px;
+  background-color: #F8F8FF;
+}
+
+#martin {
+  /*float: right;*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 2px 40px 16px;
+  background-color: #F8F8FF;
+}
+
+.cardtitle {
+  color: grey;
+  font-size: 18px;
+}
+
+#cardheader{
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-size: 16px;
+  color: grey;
+  line-height: normal;
+}
+
+.cardtxt {
+  color: grey;
+  line-height: 1px;
+}
+
+.cardtxtyorno {
+  color: green;
+  line-height: 1px;
+}
+
+#cardbtn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 6px;
+  color: white;
+  background-color: grey;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 0px 0px 16px 40px;
+}
+
+#carda {
+  text-decoration: none;
+  font-size: 22px;
+  color: #693250;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#cardbtn:hover, a:hover {
+  opacity: 0.7;
+}
+
+div p:last-child{
+  margin-bottom: 0px;
+}
+
+.cardthird {
+  width: 33%;
+  float: left;
+}
