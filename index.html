@@ -16,13 +16,26 @@
     <script type="text/javascript" src="script.js"></script>
     <script type="text/javascript" src="jquery.js"></script>
 
-    <!--jQuery librarys cdn link, only works when user online. Link to jquery file.-->
+    <!-- jQuery librarys cdn link, only works when user online. Link to jquery file.-->
     <script   src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
 
 
     <style>
+    /* Media queries */
+    @media (min-width: 800px) {
+      #mobilemenu {
+        display: none;
+      }
+    }
+
+    @media (max-width: 800px) {
+      #desktopnav {
+        display: none;
+      }
+    }
+
     ul {
-    background-color: #693250;
+      background-color: #693250;
     }
 
     .mdl-menu__item:hover {
@@ -34,8 +47,8 @@
     }
 
     #logo {
-    padding-left: 40px;
-    margin-top: 10px;
+      padding-left: 40px;
+      margin-top: 10px;
     }
 
     .cbtopnav {
@@ -47,22 +60,9 @@
       width: 96px;
     }
 
-      #mobilemenu {
+    #mobilemenu {
       margin-top: 25px;
     }
-
-    @media (min-width: 800px) {
-      #mobilemenu {
-      display: none;
-    }
-    }
-
-    @media (max-width: 800px) {
-      #desktopnav {
-      display: none;
-    }
-    }
-
 
     </style>
 
