@@ -1,6 +1,6 @@
 
 body {
-background: #693250;
+  background: #693250;
 }
 
 header {
@@ -266,7 +266,7 @@ position: absolute;*/
   font-size: 18px;
 }
 
-#cardheader{
+#cardheader {
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   font-size: 16px;
   color: grey;
@@ -309,7 +309,7 @@ position: absolute;*/
   opacity: 0.7;
 }
 
-div p:last-child{
+div p:last-child {
   margin-bottom: 0px;
 }
 
