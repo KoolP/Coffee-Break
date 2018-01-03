@@ -158,16 +158,30 @@ position: absolute;*/
   display; block;
 }
 
-#bill, #steve, #linus, #mark, #instant, #james, #grace, #richard  {
-  background: snow;
-  border-radius: 20px;
-  width: 25%;
-  margin: auto;
-  border-style: solid;
-  border-color: white;
-  border-width: 3px;
-  margin-bottom: 20px;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.8);
+ul {
+  background-color: #693250;
+}
+
+.mdl-menu__item:hover {
+  background-color: #733758;
+}
+
+nav {
+  background-color: #693250;
+}
+
+#logo {
+  padding-left: 40px;
+  margin-top: 10px;
+}
+
+.cbtopnav {
+  border-radius: 2px 50px 16px;
+  float:right;
+  margin-top: 42px;
+  background-color: #693250;
+  margin-right: 20px;
+  width: 106px;
 }
 
 #app17 {
@@ -229,18 +243,18 @@ position: absolute;*/
 }
 
 
-/*.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  border-radius: 2px 40px 16px;
-  background-color: #F8F8FF;
-}*/
+/*CARDS*/
+
+.cardthird {
+  /*width: 33%;*/
+  width: 30%;
+  width: -webkit-calc(33% - 8px);
+  width: calc(33% - 8px);
+  margin: 0 8px 0 0;
+  float: left;
+}
 
 #marcus, #jon {
-  /*float: left;*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
@@ -251,7 +265,6 @@ position: absolute;*/
 }
 
 #martin {
-  /*float: right;*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
@@ -293,7 +306,7 @@ position: absolute;*/
   text-align: center;
   cursor: pointer;
   width: 100%;
-  font-size: 18px;
+  font-size: 14px;
   border-radius: 0px 0px 16px 40px;
 }
 
@@ -313,7 +326,33 @@ div p:last-child {
   margin-bottom: 0px;
 }
 
-.cardthird {
-  width: 33%;
-  float: left;
+#bill, #steve, #linus, #mark, #instant, #james, #grace, #richard  {
+  background: snow;
+  border-radius: 20px;
+  width: 25%;
+  margin: auto;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.8);
+}
+
+
+/* Mobile and  MEDIA QUERIES */
+
+#mobilemenu {
+  margin-top: 25px;
+}
+
+@media (min-width: 800px) {
+  #mobilemenu {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  #desktopnav {
+    display: none;
+  }
 }

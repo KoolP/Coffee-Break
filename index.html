@@ -19,52 +19,9 @@
     <!-- jQuery librarys cdn link, only works when user online. Link to jquery file.-->
     <script   src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
 
-
     <style>
-    /* Media queries */
-    @media (min-width: 800px) {
-      #mobilemenu {
-        display: none;
-      }
-    }
-
-    @media (max-width: 800px) {
-      #desktopnav {
-        display: none;
-      }
-    }
-
-    ul {
-      background-color: #693250;
-    }
-
-    .mdl-menu__item:hover {
-      background-color: #733758;
-    }
-
-    nav {
-      background-color: #693250;
-    }
-
-    #logo {
-      padding-left: 40px;
-      margin-top: 10px;
-    }
-
-    .cbtopnav {
-      border-radius: 2px 50px 16px;
-      float:right;
-      margin-top: 42px;
-      background-color: #693250;
-      margin-right: 20px;
-      width: 96px;
-    }
-
-    #mobilemenu {
-      margin-top: 25px;
-    }
-
     </style>
+
 
   </head>
 
@@ -83,6 +40,7 @@
 
       <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
       for="classrooms">
+        <li class="mdl-menu__item"><p onclick="app17()">Teachers</p></li>
         <li class="mdl-menu__item"><p onclick="app17()">App 17</p></li>
         <li class="mdl-menu__item"><p onclick="web17()">Web 17</p></li>
       </ul>
@@ -115,48 +73,40 @@
     <div class="cardthird">
     <div class="card" id="marcus">
       <img src="media/people/steve.jpg" alt="Steve Jobs" style="width:80px">
-      <h4 id="cardheader">Marcus</h2>
-      <p class="cardtitle">Founder</p>
-      <p class="cardtxt">Available projects:</p>
-      <p class="cardtxtyorno">Yes</p>
+      <h4 id="cardheader">Marcus Andersson</h2>
+      <!-- cardtitle, cardtxt, cardtxtyorno -->
       <div style="margin: 24px 0;">
         <a id="carda" href"#"><i class="fa fa-github"></i></a>
         <a id="carda" href="#"><i class="fa fa-linkedin"></i></a>
         <a id="carda" href="#"><i class="fa fa-facebook"></i></a>
     </div>
-      <p><button id="cardbtn" >Contact</button></p>
+      <p><button id="cardbtn">Message  <img src="media/message_wht.png" alt="message" style="width:16px"></button></p>
     </div>
     </div>
 
     <div class="cardthird">
     <div class="card" id="martin">
       <img src="media/people/bill.jpg" alt="Bill" style="width:80px">
-      <h4 id="cardheader">Martin</h2>
-      <p class="cardtitle">Java & Android</p>
-      <p class="cardtxt">Available projects:</p>
-      <p class="cardtxtyorno">Yes</p>
+      <h4 id="cardheader">Martin Blomberg</h2>
       <div style="margin: 24px 0;">
         <a id="carda" href"#"><i class="fa fa-github"></i></a>
         <a id="carda" href="#"><i class="fa fa-linkedin"></i></a>
         <a id="carda" href="#"><i class="fa fa-facebook"></i></a>
     </div>
-      <p><button id="cardbtn" >Contact</button></p>
+      <p><button id="cardbtn">Message  <img src="media/message_wht.png" alt="message" style="width:16px"></button></p>
     </div>
     </div>
 
     <div class="cardthird">
     <div class="card" id="jon">
       <img src="media/people/linus.jpg" alt="Linus" style="width:80px">
-      <h4 id="cardheader">Jon</h2>
-      <p class="cardtitle">Fullstack</p>
-      <p class="cardtxt">Available projects:</p>
-      <p class="cardtxtyorno">Yes</p>
+      <h4 id="cardheader">Jon Kristensen</h2>
       <div style="margin: 24px 0;">
         <a id="carda" href"#"><i class="fa fa-github"></i></a>
         <a id="carda" href="#"><i class="fa fa-linkedin"></i></a>
         <a id="carda" href="#"><i class="fa fa-facebook"></i></a>
     </div>
-      <p class="pbtn"><button id="cardbtn" >Contact</button></p>
+      <p class="pbtn"><button id="cardbtn">Message  <img src="media/message_wht.png" alt="message" style="width:16px"></button></p>
     </div>
     </div>
 
