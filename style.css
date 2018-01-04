@@ -14,12 +14,12 @@ header {
 
 main {
   background: #693250;
-  margin-top: 40px;
-  margin-bottom: 60px;
   width: 70%;
+  clear: both;
   margin: auto;
   margin-top: 80px;
   margin-bottom: 60px;
+
 }
 
 h1 {
@@ -242,7 +242,6 @@ nav {
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
-
 /*CARDS*/
 
 .cardthird {
@@ -316,6 +315,7 @@ nav {
   color: #693250;
   padding-left: 2px;
   padding-right: 2px;
+  cursor: pointer;
 }
 
 #cardbtn:hover, a:hover {
@@ -338,6 +338,23 @@ div p:last-child {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.8);
 }
 
+/* Footer */
+.spacediv {
+  height: 60px;
+  clear: both;
+}
+
+.mdl-mini-footer {
+  clear: both;
+  margin-top: 60px;
+  background-color: lightgrey ;
+  color: grey;
+  box-shadow: 5px 5px 12px 10px rgba(0,0,0,0.3);
+}
+
+.mdl-mini-footer ul {
+  background-color: lightgrey;
+}
 
 /* Mobile and  MEDIA QUERIES */
 
