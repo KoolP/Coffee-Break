@@ -356,6 +356,10 @@ div p:last-child {
   background-color: lightgrey;
 }
 
+.mdl-mini-footer__social-btn {
+  cursor: pointer;
+}
+
 /* Mobile and  MEDIA QUERIES */
 
 #mobilemenu {
