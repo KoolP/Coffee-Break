@@ -22,3 +22,6 @@ https://www.youtube.com/watch?v=TzKi6ZZtIAo
 
 <h5>Using Atom and Github via Terminal</h5>
 https://vwannabe.com/2016/05/26/how-to-use-github-and-atom/
+
+<h5>Open Source community</h5>
+https://opensource.org/community
