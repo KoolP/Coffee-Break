@@ -59,6 +59,11 @@ p {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 #bt {
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   color: snow;

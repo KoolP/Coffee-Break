@@ -59,6 +59,11 @@ p {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .manifest {
   background-color: white;
   border-radius: 2px;
