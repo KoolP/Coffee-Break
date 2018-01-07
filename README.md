@@ -14,8 +14,16 @@ Here is a couple of links on how to get started on cooperating. We used Atom as 
 <h5>Clone project to local folder and create Atom integration</h5>
 https://www.youtube.com/watch?v=TzKi6ZZtIAo
 
+<h5>Fork and Pull request</h5>
+https://www.youtube.com/watch?v=_NrSWLQsDL4
+https://help.github.com/articles/fork-a-repo/
+
 <h5>Using Atom and Github via Terminal</h5>
 https://vwannabe.com/2016/05/26/how-to-use-github-and-atom/
+ing
+
+<h5>Be social</h5>
+https://help.github.com/articles/be-social/
 
 <h5>Open Source community</h5>
 https://opensource.org/community
