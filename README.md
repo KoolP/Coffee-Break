@@ -15,9 +15,9 @@ Patrik Rikama Hinnenberg & Eric Groseclos Wikås
 <img id="logo" alt="coffee mug" src="media/cofee_break_logo.png" width="20%">
 
 <h3>How to</h3>
-Here is a couple of links on how to get started on cooperating. We used ATOM as the editor and here are some info on integrating Atom to Github and the work flow when pulling latest verisons and pushing new code. You are welcome to fork the project.
+Here is a couple of links on how to get started on cooperating. We used Atom as the editor and here are some info on integrating Atom to Github and the work flow when pulling latest verisons and pushing new code. You are welcome to fork the project.
 
-<h5>Clone project to local folder and Atom</h5>
+<h5>Clone project to local folder and create Atom integration</h5>
 https://www.youtube.com/watch?v=TzKi6ZZtIAo
 
 <h5>Using Atom and Github via Terminal</h5>
