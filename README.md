@@ -23,3 +23,5 @@ https://opensource.org/community
 <h3>About us</h3>
 Coffee Break was started by two students, Patrik Rikama Hinnenberg and Eric Groseclos Wikås who started to hang out every monday in the classroom after the lecture hours. We believe that we need to play more together to further our development. The foundations of this initiative was a hyphothesis on the community possibilities and a gut feeling that collaborating is more fun, just like when making food together.
 <br>
+
+<img id="logo" alt="coffee mug" src="media/ITHS_Coffee_break_frontpage.jpg" width="80%">
