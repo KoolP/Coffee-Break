@@ -6,12 +6,6 @@ Coffee Break is a open source community web page that aims to serve as a collabo
 If you like to get your hands dirty then welcome to read a bit further how to get involved on collaborating and how to present your ideas to the community.
 <br>
 <br>
-Coffee Break was started by a couple of students at IT-Högskolan during year 2017 who wanted to stay in school after the lectures and believed that we need to play more together.
-<br>
-Best regards,
-Patrik Rikama Hinnenberg & Eric Groseclos Wikås
-<br>
-<br>
 <img id="logo" alt="coffee mug" src="media/cofee_break_logo.png" width="20%">
 
 <h3>How to</h3>
@@ -25,3 +19,7 @@ https://vwannabe.com/2016/05/26/how-to-use-github-and-atom/
 
 <h5>Open Source community</h5>
 https://opensource.org/community
+
+<h3>About us</h3>
+Coffee Break was started by two students, Patrik Rikama Hinnenberg and Eric Groseclos Wikås who started to hang out every monday in the classroom after the lecture hours. We believe that we need to play more together to further our development. The foundations of this initiative was a hyphothesis on the community possibilities and a gut feeling that collaborating is more fun, just like when making food together.
+<br>
