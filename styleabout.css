@@ -64,6 +64,11 @@ a {
   color: white;
 }
 
+#contenttext {
+  color: #693250;
+  text-decoration: underline;
+}
+
 .manifest {
   background-color: white;
   border-radius: 2px;
