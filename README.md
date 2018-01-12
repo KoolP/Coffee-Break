@@ -32,6 +32,7 @@ https://www.youtube.com/watch?v=YxeJ31q5zZQ&index=4&list=PL6XTrHGneb1NH0O-dapFSu
   
 </dl>
 <br>
+<br>
 <i><b>More about Atom and GitHub integration via editor:</b></i>
 <dl>
   <dt>Atom integration to GitHub</dt>
@@ -50,7 +51,7 @@ https://www.youtube.com/watch?v=TzKi6ZZtIAo</dd>
 <hr>
 
 <h3>About us</h3>
-Coffee Break was started by two students, Patrik Rikama Hinnenberg and Eric Groseclos Wikås who started to hang out every monday in the classroom after the lecture hours. We believe that we need to play more together to further our development. The foundations of this initiative was a hyphothesis on the community possibilities and a gut feeling that collaborating is more fun, just like when making food together.
+Coffee Break was started by two students, Patrik Rikama Hinnenberg and Eric Groseclos Wikås who started to hang out every Monday in the classroom after the lecture hours. We believe that we need to play more together to further our development. The foundations of this initiative was a hyphothesis on the community possibilities and a gut feeling that collaborating is more fun, just like when making food together.
 <br>
 <br>
 <br>
