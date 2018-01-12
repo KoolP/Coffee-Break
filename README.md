@@ -12,22 +12,32 @@ If you like to get your hands dirty then welcome to read a bit further how to ge
 Welcome to cooperate on building the site that is built on basic web technologies: Html, Css, Javascript and uses Jquery
 Here is a couple of links on how to get started on cooperating. We used Atom as the editor and here are some info on integrating Atom to Github and the work flow when pulling latest verisons and pushing new code. You are welcome to fork the project.
 
-<h5>Clone project to local folder and create Atom integration</h5>
+<h5>Github basics via terminal, in swedish</h5>
+Git demo by Erik Svedäng
+https://www.youtube.com/watch?v=YxeJ31q5zZQ&index=4&list=PL6XTrHGneb1NH0O-dapFSu7GXpXsMMWTj
+
+Create a fork
+Go to the Github project front page and choose frok in right upper corner.
+Youtube demo: https://www.youtube.com/watch?v=_NrSWLQsDL4
+Github documentation: https://help.github.com/articles/fork-a-repo/
+
+Push to own fork from own clone
+https://stackoverflow.com/questions/25545613/how-can-i-push-to-my-fork-from-a-clone-of-the-original-repo
+
+Keeping a fork up-to-date with origin/master
+https://gist.github.com/CristinaSolana/1885435
+
+<h5>Atom integration to GitHub</h5>
+Clone project to local folder and create Atom integration
 https://www.youtube.com/watch?v=TzKi6ZZtIAo
 
-<h5>Fork and Pull request</h5>
-https://www.youtube.com/watch?v=_NrSWLQsDL4
-<br>
-https://help.github.com/articles/fork-a-repo/
-
-<h5>Using Atom and Github via Terminal</h5>
+Using Atom and Github via Terminal
 https://vwannabe.com/2016/05/26/how-to-use-github-and-atom/
-ing
 
-<h5>Be social</h5>
+<h5>Be social on GitHub</h5>
 https://help.github.com/articles/be-social/
 
-<h5>Open Source community</h5>
+<h5>About the Open Source community</h5>
 https://opensource.org/community
 
 <h3>About us</h3>
