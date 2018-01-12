@@ -14,30 +14,40 @@ Here is a couple of links on how to get started on cooperating. We used Atom as 
 
 <h5>Github basics via terminal</h5>
 Git demo video in swedish by Erik Svedäng
+<br>
 https://www.youtube.com/watch?v=YxeJ31q5zZQ&index=4&list=PL6XTrHGneb1NH0O-dapFSu7GXpXsMMWTj
 
 Create a fork
 Go to the Github project front page and choose frok in right upper corner.
+<br>
 Youtube demo: https://www.youtube.com/watch?v=_NrSWLQsDL4
+<br>
 Github documentation: https://help.github.com/articles/fork-a-repo/
 
 Push to own fork from own clone
+<br>
 https://stackoverflow.com/questions/25545613/how-can-i-push-to-my-fork-from-a-clone-of-the-original-repo
 
 Keeping a fork up-to-date with origin/master
+<br>
 https://gist.github.com/CristinaSolana/1885435
 
 <h5>Atom integration to GitHub</h5>
+<br>
 Clone project to local folder and create Atom integration
+<br>
 https://www.youtube.com/watch?v=TzKi6ZZtIAo
 
 Using Atom and Github via Terminal
+<br>
 https://vwannabe.com/2016/05/26/how-to-use-github-and-atom/
 
 <h5>Be social on GitHub</h5>
+<br>
 https://help.github.com/articles/be-social/
 
 <h5>About the Open Source community</h5>
+<br>
 https://opensource.org/community
 
 <h3>About us</h3>
