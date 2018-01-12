@@ -20,13 +20,15 @@ https://www.youtube.com/watch?v=YxeJ31q5zZQ&index=4&list=PL6XTrHGneb1NH0O-dapFSu
   <dt>Create a fork</dt>
   <dd>- Go to the Github project front page and choose frok in right upper corner. See Github documentation: https://help.github.com/articles/fork-a-repo/
 <br>
-Youtube demo about forking: https://www.youtube.com/watch?v=_NrSWLQsDL4</dd>
+- Youtube demo about forking: 
+    <br>
+    https://www.youtube.com/watch?v=_NrSWLQsDL4</dd>
 
 <dt>Push to own fork from own clone</dt>
-  <dd>-https://stackoverflow.com/questions/25545613/how-can-i-push-to-my-fork-from-a-clone-of-the-original-repo</dd>
+  <dd>- https://stackoverflow.com/questions/25545613/how-can-i-push-to-my-fork-from-a-clone-of-the-original-repo</dd>
   
 <dt>Keeping a fork up-to-date with origin/master</dt>
-  <dd>-https://gist.github.com/CristinaSolana/1885435</dd>  
+  <dd>- https://gist.github.com/CristinaSolana/1885435</dd>  
   
 </dl>
 <br>
