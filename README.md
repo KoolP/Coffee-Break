@@ -32,22 +32,23 @@ https://www.youtube.com/watch?v=YxeJ31q5zZQ&index=4&list=PL6XTrHGneb1NH0O-dapFSu
   
 </dl>
 <br>
-
-<h4>Atom integration to GitHub</h4>
-
-Clone project to local folder and create Atom integration
-https://www.youtube.com/watch?v=TzKi6ZZtIAo
 <br>
-
-Using Atom and Github via Terminal
-https://vwannabe.com/2016/05/26/how-to-use-github-and-atom/
+<dl>
+  <dt>Atom integration to GitHub</dt>
+  <dd>- Clone project to local folder and create Atom and GitHub integration:
 <br>
+https://www.youtube.com/watch?v=TzKi6ZZtIAo</dd>
+  <dt>Using Atom and Github via Terminal</dt>
+  <dd>-  https://vwannabe.com/2016/05/26/how-to-use-github-and-atom/
+<dt>Be social on GitHub</dt>
+  <dd>- https://help.github.com/articles/be-social/</dd>
+  
+<dt>About the Open Source community</dt>
+  <dd>- https://opensource.org/community</dd>  
+  
+</dl>
 
-<h4>Be social on GitHub</h4>
-https://help.github.com/articles/be-social/
-
-<h4>About the Open Source community</h4>
-https://opensource.org/community
+<br>
 <hr>
 <h3>About us</h3>
 Coffee Break was started by two students, Patrik Rikama Hinnenberg and Eric Groseclos Wikås who started to hang out every monday in the classroom after the lecture hours. We believe that we need to play more together to further our development. The foundations of this initiative was a hyphothesis on the community possibilities and a gut feeling that collaborating is more fun, just like when making food together.
