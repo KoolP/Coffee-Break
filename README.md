@@ -43,10 +43,7 @@ https://www.youtube.com/watch?v=TzKi6ZZtIAo</dd>
   <dd>-  https://vwannabe.com/2016/05/26/how-to-use-github-and-atom/
 <dt>Be social on GitHub</dt>
   <dd>- https://help.github.com/articles/be-social/</dd>
-  
-<dt>About the Open Source community</dt>
-  <dd>- https://opensource.org/community</dd>  
-  
+    
 </dl>
 <hr>
 
