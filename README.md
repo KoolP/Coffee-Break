@@ -11,9 +11,7 @@ If you like to get your hands dirty, then you are welcome to read a bit further 
 <h3>How to</h3>
 <hr>
 Welcome to cooperate on building the site that is built on basic web technologies: Html, Css, Javascript and uses Jquery.
-Here are a couple of links on how to get started on cooperating. We used Atom as the editor and here are some info on integrating Atom to Github and the work flow when pulling latest versions and pushing new code. You are welcome to fork the project.
-
-<h4>Git and GitHub basics</h4>
+Here are a couple of links on how to get started on cooperating. We used Atom as the editor and here are some info on integrating Atom to Github and the work flow when pulling latest versions and pushing new code. You are welcome to fork the project. Read more about git and GitHub basics:
 <dl>
   <dt>Github basics via terminal</dt>
   <dd>- Git demo video in Swedish by Erik Svedäng:
