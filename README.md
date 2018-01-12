@@ -9,7 +9,7 @@ If you like to get your hands dirty, then you are welcome to read a bit further 
 <img id="logo" alt="coffee mug" src="media/cofee_break_logo.png" width="20%">
 
 <h3>How to</h3>
-
+<hr>
 Welcome to cooperate on building the site that is built on basic web technologies: Html, Css, Javascript and uses Jquery.
 Here are a couple of links on how to get started on cooperating. We used Atom as the editor and here are some info on integrating Atom to Github and the work flow when pulling latest versions and pushing new code. You are welcome to fork the project.
 
@@ -50,7 +50,7 @@ https://help.github.com/articles/be-social/
 
 <h4>About the Open Source community</h4>
 https://opensource.org/community
-
+<hr>
 <h3>About us</h3>
 Coffee Break was started by two students, Patrik Rikama Hinnenberg and Eric Groseclos Wikås who started to hang out every monday in the classroom after the lecture hours. We believe that we need to play more together to further our development. The foundations of this initiative was a hyphothesis on the community possibilities and a gut feeling that collaborating is more fun, just like when making food together.
 <br>
